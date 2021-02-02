@@ -32,11 +32,11 @@ export default function LandingPage() {
           <img src={linkedin} alt="linked in icon" />
         </a>
       </div>
-      <div className="name-title">
+      <header className="name-title">
         <h1>Alexis Villaraza</h1>
         <h2>FULL-STACK WEB DEVELOPER</h2>
-      </div>
-      <div className="tech-stack-icons">
+      </header>
+      <footer className="tech-stack-icons">
         <img src={html} alt="html icon" />
         <img src={css} alt="css icon" />
         <img src={sass} alt="sass icon" />
@@ -47,7 +47,7 @@ export default function LandingPage() {
         <img src={redux} alt="redux icon" />
         <img src={python} alt="python icon" />
         <img src={git} alt="git icon" />
-      </div>
+      </footer>
     </>
   )
 }

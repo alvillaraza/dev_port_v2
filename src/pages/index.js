@@ -1,9 +1,9 @@
 import React from "react"
 
 
-import LandingPage from "./LandingPage"
-import AboutMe from "./AboutMe"
-import Resume from "./Resume"
+import LandingPage from "./landing-page"
+import AboutMe from "./about-me"
+import Resume from "./resume"
 
 export default function Home() {
   return <div className="app-container">

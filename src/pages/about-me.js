@@ -1,5 +1,7 @@
 import React from "react"
 
+import Contact from "../components/Contact"
+
 import portrait from "../assets/alexis-villaraza-portrait.jpg"
 
 export default function AboutMe() {
@@ -8,11 +10,7 @@ export default function AboutMe() {
       <div className="portrait">
         <img src={portrait} />
       </div>
-      <div className="contact-info">
-        <h2>Alexis Villaraza</h2>
-        <h3>480.703.7967</h3>
-        <h4>alexis.borja@gmail.com</h4>
-      </div>
+      <Contact />
       <div className="about-me-text">
         <p>
           I studied Full Stack Web Development through Lambda School where I
