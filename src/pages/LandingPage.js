@@ -17,24 +17,36 @@ export default function LandingPage() {
   return (
     <>
       <div className="links">
-        <img src={github} alt='github icon' />
-        <img src={linkedin} alt='linked in icon' />
+        <a
+          href="https://github.com/alvillaraza"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={github} alt="github icon" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/alvillaraza/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={linkedin} alt="linked in icon" />
+        </a>
       </div>
       <div className="name-title">
         <h1>Alexis Villaraza</h1>
         <h2>FULL-STACK WEB DEVELOPER</h2>
       </div>
-          <div className="tech-stack-icons">
-              <img src={html} alt="html icon" />
-              <img src={css} alt="css icon" />
-              <img src={sass} alt="sass icon" />
-              <img src={less} alt="less icon" />
-              <img src={bootstrap} alt="bootstrap icon" />
-              <img src={js} alt="js icon" />
-              <img src={react} alt="react icon" />
-              <img src={redux} alt="redux icon" />
-              <img src={python} alt="python icon" />
-              <img src={git} alt="git icon" />
+      <div className="tech-stack-icons">
+        <img src={html} alt="html icon" />
+        <img src={css} alt="css icon" />
+        <img src={sass} alt="sass icon" />
+        <img src={less} alt="less icon" />
+        <img src={bootstrap} alt="bootstrap icon" />
+        <img src={js} alt="js icon" />
+        <img src={react} alt="react icon" />
+        <img src={redux} alt="redux icon" />
+        <img src={python} alt="python icon" />
+        <img src={git} alt="git icon" />
       </div>
     </>
   )
