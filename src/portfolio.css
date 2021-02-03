@@ -186,34 +186,34 @@ a {
 .resume-container .resume-experience .experience-block .description a {
   text-decoration: underline;
 }
-.resume-container .resume-experience .experience-block .experience {
+.resume-container .resume-experience .experience {
   border-top: 5px solid black;
   padding-top: 50px;
 }
-.resume-container .about-me-container {
+.about-me-container {
   display: flex;
 }
-.resume-container .about-me-container .about-me-text {
+.about-me-container .about-me-text {
   padding: 50px;
 }
-.resume-container .about-me-container .about-me-story {
+.about-me-container .about-me-story {
   border-top: 5px solid black;
   padding-top: 50px;
   font-family: "Roboto Condensed", sans-serif;
 }
-.resume-container .contact-info {
+.contact-info {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   padding-bottom: 30px;
 }
-.resume-container .contact-info h2 {
+.contact-info h2 {
   font-size: 50px;
 }
-.resume-container .contact-info h3 {
+.contact-info h3 {
   font-size: 35px;
   line-height: 0;
 }
-.resume-container .contact-info h4 {
+.contact-info h4 {
   font-size: 20px;
   line-height: 0;
 }
