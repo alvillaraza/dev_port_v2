@@ -147,7 +147,7 @@ a {
   max-width: 25px;
 }
 .resume-container .resume-basic-info {
-  padding: 50px;
+  padding-left: 50px;
 }
 .resume-container .resume-basic-info .tech-stack-list {
   border-top: 5px solid black;
@@ -155,24 +155,26 @@ a {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 35px;
+  word-spacing: 13px;
 }
 .resume-container .resume-experience {
+  width: 100%;
   padding: 50px;
 }
 .resume-container .resume-experience .experience-block {
   padding: 20px;
-}
-.resume-container .resume-experience .experience-block .dates {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-weight: 500;
-  text-transform: uppercase;
 }
 .resume-container .resume-experience .experience-block h1 {
   text-transform: uppercase;
 }
 .resume-container .resume-experience .experience-block h2 {
   font-size: 20px;
+}
+.resume-container .resume-experience .experience-block .dates {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .resume-container .resume-experience .experience-block .description {
   font-family: "Roboto Condensed", sans-serif;
@@ -181,37 +183,37 @@ a {
   width: 10px;
   padding-right: 15px;
 }
-.resume-container .resume-experience .experience {
+.resume-container .resume-experience .experience-block .description a {
+  text-decoration: underline;
+}
+.resume-container .resume-experience .experience-block .experience {
   border-top: 5px solid black;
   padding-top: 50px;
 }
-.about-me-container {
+.resume-container .about-me-container {
   display: flex;
 }
-.about-me-container .portrait {
-  max-width: 125%;
-}
-.about-me-container .about-me-text {
+.resume-container .about-me-container .about-me-text {
   padding: 50px;
 }
-.about-me-container .about-me-story {
+.resume-container .about-me-container .about-me-story {
   border-top: 5px solid black;
   padding-top: 50px;
   font-family: "Roboto Condensed", sans-serif;
 }
-.contact-info {
+.resume-container .contact-info {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   padding-bottom: 30px;
 }
-.contact-info h2 {
+.resume-container .contact-info h2 {
   font-size: 50px;
 }
-.contact-info h3 {
+.resume-container .contact-info h3 {
   font-size: 35px;
   line-height: 0;
 }
-.contact-info h4 {
+.resume-container .contact-info h4 {
   font-size: 20px;
   line-height: 0;
 }

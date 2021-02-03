@@ -4,6 +4,7 @@ import React, {useState} from "react"
 import LandingPage from "./landing-page"
 import AboutMe from "./about-me"
 import Resume from "./resume"
+import Portfolio from "./portfolio"
 import Nav from "./nav"
 
 import '../Normalize.css'
@@ -17,6 +18,7 @@ export default function Home() {
     {/* <LandingPage open={open} setOpen={setOpen} /> */}
     {/* <AboutMe /> */}
     <Resume />
+    {/* <Portfolio /> */}
     <Nav open={open} setOpen={setOpen}/>
  
   </div>
