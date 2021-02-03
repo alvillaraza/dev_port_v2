@@ -11,14 +11,17 @@ export default function Resume() {
       <div className="resume-basic-info">
         <Contact />
         <div className="tech-stack-list">
-          HTML CSS Bootstrap JS React Redux Node SQL Python GIT Agile MS Office
+          HTML CSS Bootstrap JS React Redux  Gatsby Node SQL Python GIT Agile MS Office
         </div>
       </div>
 
       <div className="resume-experience">
         <section className="experience-block">
-          <div className="dates">Dec 2020-Jan 2021</div>
-          <h1 className="first-line">ACNH Villager Picker</h1>
+          <div className="dates">December 2020 - January 2021</div>
+          <a
+                    href='https://animal-crossing-git-main.alvillaraza.vercel.app/'
+                    target='_blank' rel='noopener noreferrer'
+                ><h1 className="first-line">ACNH Villager Picker</h1></a>
           <h2 className="second-line">React, LESS, API</h2>
           <p className="description">
             If Animal Crossing and Tinder had a baby, this would be it. This
@@ -42,8 +45,8 @@ export default function Resume() {
           </p>
         </section>
         <section className="experience-block">
-          <div className="dates">April-May 2020</div>
-          <h1 className="first-line">Wellness Tracker</h1>
+          <div className="dates">April - May 2020</div>
+          <a href='https://www.refresh-app.com/' target='_blank' rel='noopener noreferrer'><h1 className="first-line">Wellness Tracker</h1></a>
           <h2 className="second-line">
             React, Redux, Node, API, PostgreSQL, JSON Web Token
           </h2>
@@ -54,29 +57,29 @@ export default function Resume() {
               <li>
                 <img src={lightning} />
                 An employee can sign in and track their sleep, water intake,
-                exercise, and breaks.{" "}
+                exercise, and breaks.
               </li>
               <li>
                 <img src={lightning} />A company admin can also sign in to see
-                each of the employee’s scores within each of their departments.{" "}
-              </li>{" "}
+                each of the employee’s scores within each of their departments.
+              </li>
               <li>
                 <img src={lightning} />
                 Contributed to a cross-functional team of 4 developers and 1 UX
                 designer on an 8 week sprint with 3 canvas releases.
-              </li>{" "}
+              </li>
               <li>
                 <img src={lightning} /> Applied JSON web token to develop user
                 credential authentication.
-              </li>{" "}
+              </li>
               <li>
                 <img src={lightning} /> Developed API calls and endpoints.
-              </li>{" "}
+              </li>
               <li>
                 <img src={lightning} />
                 Implemented features and debugged code on the frontend and
                 backend.
-              </li>{" "}
+              </li>
               <li>
                 <img src={lightning} /> Organized pair programming sessions to
                 increase efficiency.
@@ -86,7 +89,10 @@ export default function Resume() {
         </section>
         <section className="experience-block">
           <div className="dates">December 2019</div>
-          <h1 className="first-line">Opti</h1>
+          <a
+                    href='https://user-interface-eight.vercel.app/'
+                    target='_blank' rel='noopener noreferrer'
+                ><h1 className="first-line">Opti</h1></a>
           <h2 className="second-line">HTML, LESS</h2>
           <p className="description">
             <ul>
@@ -106,7 +112,7 @@ export default function Resume() {
         </section>
       </div>
 
-      {/* <div className="resume-experience">
+      <div className="resume-experience">
         <div className="education">
           <section className="experience-block">
             <div className="dates">December 2019 – June 2020</div>
@@ -180,7 +186,7 @@ export default function Resume() {
             </p>
           </section>
         </div>
-      </div> */}
+      </div>
     </div>
   )
 }

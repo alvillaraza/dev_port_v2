@@ -14,9 +14,9 @@ export default function Home() {
 
   return <div className="app-container">
     
-    <LandingPage open={open} setOpen={setOpen} />
-    {/* <AboutMe />
-    <Resume /> */}
+    {/* <LandingPage open={open} setOpen={setOpen} /> */}
+    {/* <AboutMe /> */}
+    <Resume />
     <Nav open={open} setOpen={setOpen}/>
  
   </div>

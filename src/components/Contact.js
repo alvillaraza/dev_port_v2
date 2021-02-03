@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="contact-info">
         <h2>Alexis Villaraza</h2>
         <h3>480.703.7967</h3>
-        <h4>alexis.borja@gmail.com</h4>
+        <a href="mailto:alexis.borja@gmail.com"><h4>alexis.borja@gmail.com</h4></a>
       </div>
   )
 }

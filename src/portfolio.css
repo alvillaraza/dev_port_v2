@@ -58,6 +58,10 @@ button:focus {
 img {
   max-width: 100%;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .nav-container {
   display: flex;
   position: absolute;
@@ -134,6 +138,11 @@ img {
 .resume-container {
   display: flex;
 }
+.resume-container h1,
+.resume-container h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
 .resume-container img {
   max-width: 25px;
 }
@@ -142,13 +151,35 @@ img {
 }
 .resume-container .resume-basic-info .tech-stack-list {
   border-top: 5px solid black;
-  padding-top: 50px;
+  padding-top: 150px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
 }
 .resume-container .resume-experience {
   padding: 50px;
 }
 .resume-container .resume-experience .experience-block {
   padding: 20px;
+}
+.resume-container .resume-experience .experience-block .dates {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.resume-container .resume-experience .experience-block h1 {
+  text-transform: uppercase;
+}
+.resume-container .resume-experience .experience-block h2 {
+  font-size: 20px;
+}
+.resume-container .resume-experience .experience-block .description {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.resume-container .resume-experience .experience-block .description img {
+  width: 10px;
+  padding-right: 15px;
 }
 .resume-container .resume-experience .experience {
   border-top: 5px solid black;
@@ -161,9 +192,26 @@ img {
   max-width: 125%;
 }
 .about-me-container .about-me-text {
-  margin: 50px;
+  padding: 50px;
 }
 .about-me-container .about-me-story {
   border-top: 5px solid black;
   padding-top: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.contact-info {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.contact-info h2 {
+  font-size: 50px;
+}
+.contact-info h3 {
+  font-size: 35px;
+  line-height: 0;
+}
+.contact-info h4 {
+  font-size: 20px;
+  line-height: 0;
 }
