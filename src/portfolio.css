@@ -1,0 +1,39 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+.links img {
+  max-width: 50px;
+  padding: 5px;
+}
+.name-title {
+  text-align: center;
+  margin: 250px;
+}
+.tech-stack-icons {
+  text-align: center;
+}
+.tech-stack-icons img {
+  max-width: 50px;
+  padding: 15px;
+}
+.resume-container {
+  display: flex;
+}
+.resume-container img {
+  max-width: 25px;
+}
+.resume-container .resume-basic-info {
+  padding: 50px;
+}
+.resume-container .resume-basic-info .tech-stack-list {
+  border-top: 5px solid black;
+  padding-top: 50px;
+}
+.resume-container .resume-experience {
+  padding: 50px;
+}
+.resume-container .resume-experience .experience {
+  border-top: 5px solid black;
+  padding-top: 50px;
+}
