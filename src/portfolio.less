@@ -1,26 +1,125 @@
-ul{
-    list-style:none;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;700&family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+.heading-font() {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
-// Landing Page //
-// Landing Page //
-.links {
-  img {
-    max-width: 50px;
-    padding: 5px;
+
+.reading-font() {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
   }
 }
 
-.name-title {
-  text-align: center;
-  margin: 250px;
+img {
+  max-width: 100%;
 }
 
-.tech-stack-icons {
-  text-align: center;
-  img {
-    max-width: 50px;
-    padding: 15px;
+// Nav //
+// Nav //
+.nav-container {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100vh;
+  transition-property: right;
+  transition-duration: 0.5s;
+
+  &.hide {
+    right: -24%;
+  }
+
+  .button-container {
+    display: flex;
+    align-items: center;
+    width: 80px;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    .heading-font();
+    font-weight: 300;
+    font-size: 20px;
+
+    li {
+      padding: 10px;
+    }
+  }
+}
+
+// Landing Page //
+// Landing Page //
+.landing-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+  .faded {
+    opacity: 0.1;
+  }
+
+  .links {
+    img {
+      max-width: 32px;
+    }
+
+    a {
+      display: inline-block;
+      padding: 5px;
+    }
+  }
+
+  .name-title {
+    text-align: center;
+    .heading-font();
+    transition-property: opacity;
+    transition-duration: 0.5s;
+
+    h1 {
+      font-weight: 100;
+      font-size: 8vw;
+      line-height: 0;
+    }
+
+    h2 {
+      font-size: 3vw;
+    }
+  }
+
+  .tech-stack-icons {
+    text-align: center;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+
+    img {
+      max-width: 32px;
+      padding: 12px;
+    }
   }
 }
 
@@ -43,11 +142,33 @@ ul{
   }
 
   .resume-experience {
-      padding: 50px;
+    padding: 50px;
 
-      .experience {
-        border-top: 5px solid black;
-        padding-top: 50px;
-      }
+    .experience-block {
+      padding: 20px;
+    }
+
+    .experience {
+      border-top: 5px solid black;
+      padding-top: 50px;
+    }
+  }
+}
+
+// About Me //
+// About Me //
+.about-me-container {
+  display: flex;
+
+  .portrait {
+    max-width: 125%;
+  }
+
+  .about-me-text {
+    margin: 50px;
+  }
+  .about-me-story {
+    border-top: 5px solid black;
+    padding-top: 50px;
   }
 }
