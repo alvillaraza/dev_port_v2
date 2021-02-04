@@ -42,6 +42,7 @@
 }
 body {
   overflow-x: hidden;
+  line-height: 1.44;
 }
 ul {
   list-style: none;
@@ -62,18 +63,21 @@ a {
   text-decoration: none;
   color: inherit;
 }
+main {
+  position: relative;
+}
 .nav-container {
   display: flex;
   position: absolute;
   top: 0;
   right: 0;
-  width: 30%;
-  height: 100vh;
+  width: 300px;
+  height: 100%;
   transition-property: right;
   transition-duration: 0.5s;
 }
 .nav-container.hide {
-  right: -24%;
+  right: -240px;
 }
 .nav-container .button-container {
   display: flex;
@@ -84,7 +88,6 @@ a {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 100vh;
   background-color: black;
   color: white;
   padding: 50px;
