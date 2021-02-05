@@ -50,6 +50,7 @@ main {
 .hidden {
   opacity: 0;
   z-index: -1;
+  transform: scale(.98);
 }
 
 .app-container {
@@ -61,7 +62,7 @@ main {
     grid-column: ~"1/-1";
     grid-row: ~"1/-1";
     overflow-y: auto;
-    transition-property: opacity;
+    transition-property: opacity transform;
     transition-duration: 0.5s;
   }
 }
