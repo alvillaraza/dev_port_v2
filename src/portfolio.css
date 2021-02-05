@@ -40,7 +40,9 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meKCM.ttf) format('truetype');
 }
+html,
 body {
+  overflow: hidden;
   line-height: 1.44;
 }
 ul {
@@ -73,14 +75,16 @@ main {
   z-index: -1;
 }
 .app-container {
-  overflow-x: hidden;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 }
 .app-container > * {
+  display: flex;
+  align-items: flex-start;
   grid-column: 1/-1;
   grid-row: 1/-1;
+  overflow-y: auto;
   transition-property: opacity;
   transition-duration: 0.5s;
 }
@@ -170,6 +174,7 @@ main {
 }
 .resume-container .resume-basic-info {
   display: flex;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   padding-left: 50px;
@@ -186,23 +191,27 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 100%;
-  padding: 50px;
+  padding: 5%;
 }
 .resume-container .resume-experience .experience-block {
   padding: 20px;
 }
 .resume-container .resume-experience .experience-block h1 {
   text-transform: uppercase;
+  margin: 0;
 }
 .resume-container .resume-experience .experience-block h2 {
   font-size: 20px;
+  margin: 0;
 }
 .resume-container .resume-experience .experience-block .dates {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-weight: 500;
   text-transform: uppercase;
+}
+.resume-container .resume-experience .experience-block a:hover {
+  text-decoration: underline;
 }
 .resume-container .resume-experience .experience-block .description {
   font-family: "Roboto Condensed", sans-serif;
