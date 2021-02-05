@@ -18,6 +18,7 @@ module.exports = {
         display: 'standalone',
         icon: 'src/assets/favicon.png',
       },
-    }
+    },
+    'gatsby-plugin-react-helmet',
   ],
 }
