@@ -1,7 +1,5 @@
 import React from "react"
 
-import Nav from "./nav"
-
 import github from "../assets/logo-github.png"
 import linkedin from "../assets/logo-linked-in.png"
 import html from "../assets/logo-html-5.png"
