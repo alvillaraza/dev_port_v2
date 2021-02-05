@@ -3,9 +3,9 @@ import React from "react"
 import Contact from "../components/Contact"
 
 import lightning from "../assets/icon-lightning-bolt.png"
-import github from "../assets/logo-github.png"
+import link from "../assets/link.svg"
 
-export default function Portfolio({open, setOpen, page}) {
+export default function Portfolio({ open, setOpen, page }) {
   return (
     <div className={`resume-container ${page === "portfolio" ? "" : "hidden"}`}>
       <div className="resume-basic-info">
@@ -19,17 +19,19 @@ export default function Portfolio({open, setOpen, page}) {
       <div className="resume-experience">
         <section className="experience-block">
           <div className="dates">December 2020 - January 2021</div>
+
           <a
             href="https://animal-crossing-git-main.alvillaraza.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h1 className="first-line">ACNH Villager Picker</h1>
+            <h1 className="first-line">
+              <img src={link} /> ACNH Villager Picker
+            </h1>
           </a>
-          
-            
-            <h2 className="second-line">React, LESS, API</h2>
-          
+
+          <h2 className="second-line">React, LESS, API</h2>
+
           <p className="description">
             If Animal Crossing and Tinder had a baby, this would be it. This
             website allows a user to choose characters out of a list and keep
@@ -48,8 +50,11 @@ export default function Portfolio({open, setOpen, page}) {
                 <img src={lightning} />
                 Implemented advanced design using LESS
               </li>
-                      </ul>
-                      Github: <a href="https://github.com/alvillaraza/animal-crossing">https://github.com/alvillaraza/animal-crossing</a>
+            </ul>
+            Github:
+            <a href="https://github.com/alvillaraza/animal-crossing">
+              https://github.com/alvillaraza/animal-crossing
+            </a>
           </p>
         </section>
         <section className="experience-block">
@@ -59,7 +64,10 @@ export default function Portfolio({open, setOpen, page}) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h1 className="first-line">Wellness Tracker</h1>
+            <h1 className="first-line">
+              {" "}
+              <img src={link} /> Wellness Tracker
+            </h1>
           </a>
           <h2 className="second-line">
             React, Redux, Node, API, PostgreSQL, JSON Web Token
@@ -98,9 +106,19 @@ export default function Portfolio({open, setOpen, page}) {
                 <img src={lightning} /> Organized pair programming sessions to
                 increase efficiency.
               </li>
-                      </ul>
-                      <p>Github Frontend: <a href="https://github.com/Lambda-School-Labs/refresh-fe">https://github.com/Lambda-School-Labs/refresh-fe</a></p>
-                       <p>Github Backend: <a href="https://github.com/Lambda-School-Labs/refresh-be">https://github.com/Lambda-School-Labs/refresh-be</a></p>
+            </ul>
+            <p>
+              Github Frontend:{" "}
+              <a href="https://github.com/Lambda-School-Labs/refresh-fe">
+                https://github.com/Lambda-School-Labs/refresh-fe
+              </a>
+            </p>
+            <p>
+              Github Backend:{" "}
+              <a href="https://github.com/Lambda-School-Labs/refresh-be">
+                https://github.com/Lambda-School-Labs/refresh-be
+              </a>
+            </p>
           </p>
         </section>
         <section className="experience-block">
@@ -110,7 +128,9 @@ export default function Portfolio({open, setOpen, page}) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h1 className="first-line">Opti</h1>
+            <h1 className="first-line">
+              <img src={link} /> Opti
+            </h1>
           </a>
           <h2 className="second-line">HTML, LESS</h2>
           <p className="description">
@@ -126,8 +146,11 @@ export default function Portfolio({open, setOpen, page}) {
                 <img src={lightning} /> Designed and implemented the landing
                 page using LESS.
               </li>
-                      </ul>
-                      Github: <a href="https://github.com/tryopti/user-interface">https://github.com/tryopti/user-interface</a>
+            </ul>
+            Github:{" "}
+            <a href="https://github.com/tryopti/user-interface">
+              https://github.com/tryopti/user-interface
+            </a>
           </p>
         </section>
       </div>
