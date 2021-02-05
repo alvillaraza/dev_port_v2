@@ -66,6 +66,24 @@ a {
 main {
   position: relative;
 }
+.faded {
+  opacity: 0.1;
+}
+.hidden {
+  opacity: 0;
+  z-index: -1;
+}
+.app-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.app-container > * {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
 .nav-container {
   display: flex;
   position: absolute;
@@ -89,7 +107,6 @@ main {
   align-items: center;
   width: 100%;
   background-color: black;
-  color: white;
   padding: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -99,14 +116,14 @@ main {
 .nav-container nav li {
   padding: 10px;
 }
+.nav-container nav li button {
+  color: white;
+}
 .landing-page-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-}
-.landing-page-container .faded {
-  opacity: 0.1;
 }
 .landing-page-container .links img {
   max-width: 32px;

@@ -15,10 +15,10 @@ import redux from "../assets/logo-redux.png"
 import python from "../assets/logo-python.png"
 import git from "../assets/logo-git.png"
 
-export default function LandingPage({open, setOpen}) {
+export default function LandingPage({open, setOpen, page}) {
   return (
     <>
-      <div className="landing-page-container">
+      <div className={`landing-page-container ${page === "landing-page" ? "" : "hidden"}`}>
         <div className="links">
           <a
             href="https://github.com/alvillaraza"

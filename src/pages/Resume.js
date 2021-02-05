@@ -5,10 +5,10 @@ import Contact from "../components/Contact"
 import remote from "../assets/logo-remote.png"
 import lightning from "../assets/icon-lightning-bolt.png"
 
-export default function Resume() {
+export default function Resume({open, setOpen, page}) {
 
   return (
-    <div className="resume-container">
+    <div className={`resume-container ${page === "resume" ? "" : "hidden"}`}>
       <div className="resume-basic-info">
         <Contact />
         <div className="tech-stack-list">

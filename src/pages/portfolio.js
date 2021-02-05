@@ -5,9 +5,9 @@ import Contact from "../components/Contact"
 import lightning from "../assets/icon-lightning-bolt.png"
 import github from "../assets/logo-github.png"
 
-export default function Portfolio() {
+export default function Portfolio({open, setOpen, page}) {
   return (
-    <div className="resume-container">
+    <div className={`resume-container ${page === "portfolio" ? "" : "hidden"}`}>
       <div className="resume-basic-info">
         <Contact />
         <div className="tech-stack-list">
