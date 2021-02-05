@@ -53,15 +53,11 @@ main {
 }
 
 .app-container {
-  // overflow-x: hidden;
-  // width: 100vw;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 
   > * {
-    display: flex;
-    align-items: flex-start;
     grid-column: ~"1/-1";
     grid-row: ~"1/-1";
     overflow-y: auto;
@@ -119,12 +115,12 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
   height: 100vh;
 
   .links {
     img {
       max-width: 32px;
+      justify-content: flex-start;
     }
 
     a {
@@ -165,7 +161,8 @@ main {
 // Resume & Portfolio //
 // Resume & Portfolio //
 .resume-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   height: 100vh;
 
   h1,
@@ -182,7 +179,7 @@ main {
     height: 100vh;
     flex-direction: column;
     justify-content: center;
-    padding-left: 50px;
+    padding: 5%;
 
     .tech-stack-list {
       border-top: 5px solid black;
@@ -194,9 +191,9 @@ main {
   }
 
   .resume-experience {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
     padding: 5%;
 
     .experience-block {
@@ -206,21 +203,20 @@ main {
         text-transform: uppercase;
         margin: 0;
       }
-      
+
       h2 {
         font-size: 20px;
         margin: 0;
       }
-      
+
       .dates {
-        // line-height: 0;
         .heading-font();
         font-weight: 500;
         text-transform: uppercase;
       }
-      
+
       a:hover {
-          text-decoration: underline;        
+        text-decoration: underline;
       }
 
       .description {
@@ -236,13 +232,18 @@ main {
         }
       }
     }
+
     .experience {
       border-top: 5px solid black;
-      //   padding-top: 50px;
+    }
+
+    .education {  
+      align-self: flex-end;
     }
   }
+
   @media screen and (max-width: 720px) {
-    flex-direction: column;
+    grid-template-columns: 1fr;
 
     .tech-stack-list {
       padding: 80px 50px;
@@ -253,12 +254,9 @@ main {
 // About Me //
 // About Me //
 .about-me-container {
-  display: flex;
-
-  //   .portrait {
-  //     // max-width: 125%;
-  //     // height: 100vh;
-  //   }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
 
   .about-me-text {
     padding: 50px;
@@ -271,7 +269,7 @@ main {
   }
 
   @media screen and (max-width: 720px) {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 }
 

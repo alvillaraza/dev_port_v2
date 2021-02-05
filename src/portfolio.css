@@ -80,8 +80,6 @@ main {
   grid-template-rows: 1fr;
 }
 .app-container > * {
-  display: flex;
-  align-items: flex-start;
   grid-column: 1/-1;
   grid-row: 1/-1;
   overflow-y: auto;
@@ -131,6 +129,7 @@ main {
 }
 .landing-page-container .links img {
   max-width: 32px;
+  justify-content: flex-start;
 }
 .landing-page-container .links a {
   display: inline-block;
@@ -161,7 +160,8 @@ main {
   padding: 12px;
 }
 .resume-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   height: 100vh;
 }
 .resume-container h1,
@@ -177,7 +177,7 @@ main {
   height: 100vh;
   flex-direction: column;
   justify-content: center;
-  padding-left: 50px;
+  padding: 5%;
 }
 .resume-container .resume-basic-info .tech-stack-list {
   border-top: 5px solid black;
@@ -188,9 +188,9 @@ main {
   word-spacing: 13px;
 }
 .resume-container .resume-experience {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, auto);
   padding: 5%;
 }
 .resume-container .resume-experience .experience-block {
@@ -226,16 +226,21 @@ main {
 .resume-container .resume-experience .experience {
   border-top: 5px solid black;
 }
+.resume-container .resume-experience .education {
+  align-self: flex-end;
+}
 @media screen and (max-width: 720px) {
   .resume-container {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
   .resume-container .tech-stack-list {
     padding: 80px 50px;
   }
 }
 .about-me-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
 }
 .about-me-container .about-me-text {
   padding: 50px;
@@ -247,7 +252,7 @@ main {
 }
 @media screen and (max-width: 720px) {
   .about-me-container {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 }
 .contact-info {

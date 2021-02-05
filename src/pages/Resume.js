@@ -5,44 +5,42 @@ import Contact from "../components/Contact"
 import remote from "../assets/logo-remote.png"
 import lightning from "../assets/icon-lightning-bolt.png"
 
-export default function Resume({open, setOpen, page}) {
-
+export default function Resume({ open, setOpen, page }) {
   return (
     <div className={`resume-container ${page === "resume" ? "" : "hidden"}`}>
       <div className="resume-basic-info">
         <Contact />
         <div className="tech-stack-list">
-          HTML CSS Bootstrap JS React Redux  Gatsby Node SQL Python GIT Agile MS Office
+          HTML CSS Bootstrap JS React Redux Gatsby Node SQL Python GIT Agile MS
+          Office
         </div>
       </div>
 
       <div className="resume-experience">
-        <div className="education">
-          <section className="experience-block">
-            <div className="dates">December 2019 – June 2020</div>
-            <h1 className="first-line">
-              EDUCATION <img src={remote} alt="remote logo" />
-            </h1>
-            <h2 className="second-line">Full Stack Web Development Student</h2>
-            <h2 className="second-line">Lambda School</h2>
-            <p className="description">
-              <ul>
-                <li>
-                  Learned several programming languages from the ground up in
-                  just 6 months.
-                </li>
-                <li>
-                  Participated in three different build weeks, collaborating in
-                  groups of +/- 8 students to successfully develop websites.
-                </li>
-                <li>
-                  Built a fitness app in 3 release canvases in a team of 4,
-                  using GIT, Postgres, Node.js, and React.js.
-                </li>
-              </ul>
-            </p>
-          </section>
-        </div>
+        <section className="experience-block education" >
+          <div className="dates">December 2019 – June 2020</div>
+          <h1 className="first-line">
+            EDUCATION <img src={remote} alt="remote logo" />
+          </h1>
+          <h2 className="second-line">Full Stack Web Development Student</h2>
+          <h2 className="second-line">Lambda School</h2>
+          <p className="description">
+            <ul>
+              <li>
+                Learned several programming languages from the ground up in just
+                6 months.
+              </li>
+              <li>
+                Participated in three different build weeks, collaborating in
+                groups of +/- 8 students to successfully develop websites.
+              </li>
+              <li>
+                Built a fitness app in 3 release canvases in a team of 4, using
+                GIT, Postgres, Node.js, and React.js.
+              </li>
+            </ul>
+          </p>
+        </section>{" "}
         <div className="experience">
           <section className="experience-block">
             <div className="dates">October 2020 – Present</div>
@@ -63,6 +61,7 @@ export default function Resume({open, setOpen, page}) {
               </ul>
             </p>
           </section>
+
           <section className="experience-block">
             <div className="dates">July 2020 – October 2020</div>
             <h1 className="first-line">
