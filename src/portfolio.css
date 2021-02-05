@@ -258,3 +258,10 @@ main {
   font-size: 20px;
   line-height: 0;
 }
+.contact-info .links img {
+  max-width: 32px;
+}
+.contact-info .links a {
+  display: inline-block;
+  padding: 5px;
+}

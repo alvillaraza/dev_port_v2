@@ -49,6 +49,16 @@ export default function Nav({ open, setOpen, setPage }) {
               About Me
             </button>
           </li>
+          <li>
+            <button
+              onClick={() => {
+                setPage("landing-page")
+                setOpen(false)
+              }}
+            >
+              Home
+            </button>
+          </li>
         </ul>
       </nav>
     </div>

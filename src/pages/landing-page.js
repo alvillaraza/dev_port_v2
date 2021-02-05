@@ -11,12 +11,17 @@ import js from "../assets/logo-js.png"
 import react from "../assets/logo-react.png"
 import redux from "../assets/logo-redux.png"
 import python from "../assets/logo-python.png"
+import gatsby from "../assets/logo-gatsby.png"
 import git from "../assets/logo-git.png"
 
-export default function LandingPage({open, setOpen, page}) {
+export default function LandingPage({ open, setOpen, page }) {
   return (
     <>
-      <div className={`landing-page-container ${page === "landing-page" ? "" : "hidden"}`}>
+      <div
+        className={`landing-page-container ${
+          page === "landing-page" ? "" : "hidden"
+        }`}
+      >
         <div className="links">
           <a
             href="https://github.com/alvillaraza"
@@ -47,11 +52,10 @@ export default function LandingPage({open, setOpen, page}) {
           <img src={react} alt="react icon" />
           <img src={redux} alt="redux icon" />
           <img src={python} alt="python icon" />
+          <img src={gatsby} alt="gatsby icon" />
           <img src={git} alt="git icon" />
         </footer>
       </div>
-  
-      
     </>
   )
 }
