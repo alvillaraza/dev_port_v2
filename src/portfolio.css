@@ -40,9 +40,7 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meKCM.ttf) format('truetype');
 }
-html,
 body {
-  overflow-x: hidden;
   line-height: 1.44;
 }
 ul {
@@ -75,6 +73,7 @@ main {
   z-index: -1;
 }
 .app-container {
+  overflow-x: hidden;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -195,7 +194,6 @@ main {
 }
 .resume-container .resume-experience .experience-block h1 {
   text-transform: uppercase;
-  line-height: 0;
 }
 .resume-container .resume-experience .experience-block h2 {
   font-size: 20px;
