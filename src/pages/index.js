@@ -1,10 +1,10 @@
 import React, { useState } from "react"
 
-import LandingPage from "./landing-page"
-import AboutMe from "./about-me"
-import Resume from "./resume"
-import Portfolio from "./portfolio"
-import Nav from "./nav"
+import LandingPage from "./Landing-page"
+import AboutMe from "./About-me"
+import Resume from "./Resume"
+import Portfolio from "./Portfolio"
+import Nav from "./Nav"
 
 import "../Normalize.css"
 import "../portfolio.css"
