@@ -5,7 +5,7 @@ import AboutMe from "./About-me"
 import Resume from "./Resume"
 import Portfolio from "./Portfolio"
 import Nav from "./Nav"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 
 import "../Normalize.css"
 import "../portfolio.css"
