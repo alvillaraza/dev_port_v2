@@ -11,7 +11,7 @@ siteMetadata: {
   description:
     "Full Stack Web Developer",
   url: "https://www.alexisvillaraza.com", 
-  image: "/site-preview.jpg", 
+  image: "/site-preview.png", 
 },
   plugins: [
     {
