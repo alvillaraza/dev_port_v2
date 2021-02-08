@@ -5,6 +5,7 @@ import AboutMe from "./About-me"
 import Resume from "./Resume"
 import Portfolio from "./Portfolio"
 import Nav from "./Nav"
+import SEO from "../components/seo"
 
 import "../Normalize.css"
 import "../portfolio.css"
@@ -16,7 +17,8 @@ export default function Home() {
   return (
     <main>
       <div className="app-container">
-        <LandingPage open={open} setOpen={setOpen} page={page}  />
+        <SEO />
+        <LandingPage open={open} setOpen={setOpen} page={page} />
         <AboutMe open={open} setOpen={setOpen} page={page} />
         <Resume open={open} setOpen={setOpen} page={page} />
         <Portfolio open={open} setOpen={setOpen} page={page} />
