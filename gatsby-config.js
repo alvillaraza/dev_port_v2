@@ -5,7 +5,14 @@
  */
 
 module.exports = {
-  /* Your site config here */
+/* Your site config here */
+siteMetadata: {
+  title: "Alexis Villaraza Web Dev Portfolio",
+  description:
+    "Full Stack Web Developer",
+  url: "https://www.alexisvillaraza.com", 
+  image: "/alexis-villaraza-portrait.jpg", 
+},
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
