@@ -52,7 +52,7 @@ export default function Portfolio({ open, setOpen, page }) {
               </li>
             </ul>
             Github:
-            <a href="https://github.com/alvillaraza/animal-crossing">
+            <a href="https://github.com/alvillaraza/animal-crossing" target="_blank">
               https://github.com/alvillaraza/animal-crossing
             </a>
           </p>
@@ -60,7 +60,7 @@ export default function Portfolio({ open, setOpen, page }) {
         <section className="experience-block">
           <div className="dates">April - May 2020</div>
           <a
-            href="https://www.refresh-app.com/"
+            href="https://refresh-fe-cyan.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -109,13 +109,13 @@ export default function Portfolio({ open, setOpen, page }) {
             </ul>
             <p>
               Github Frontend:{" "}
-              <a href="https://github.com/Lambda-School-Labs/refresh-fe">
+              <a href="https://github.com/Lambda-School-Labs/refresh-fe" target="_blank">
                 https://github.com/Lambda-School-Labs/refresh-fe
               </a>
             </p>
             <p>
               Github Backend:{" "}
-              <a href="https://github.com/Lambda-School-Labs/refresh-be">
+              <a href="https://github.com/Lambda-School-Labs/refresh-be" target="_blank">
                 https://github.com/Lambda-School-Labs/refresh-be
               </a>
             </p>
@@ -148,7 +148,7 @@ export default function Portfolio({ open, setOpen, page }) {
               </li>
             </ul>
             Github:{" "}
-            <a href="https://github.com/tryopti/user-interface">
+            <a href="https://github.com/tryopti/user-interface" target="_blank">
               https://github.com/tryopti/user-interface
             </a>
           </p>
