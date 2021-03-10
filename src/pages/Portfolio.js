@@ -109,7 +109,7 @@ export default function Portfolio({ open, setOpen, page }) {
             </ul>
             <p>
               Github Frontend:{" "}
-              <a href="https://github.com/Lambda-School-Labs/refresh-fe" target="_blank">
+              <a href="https://github.com/alvillaraza/refresh-fe" target="_blank">
                 https://github.com/Lambda-School-Labs/refresh-fe
               </a>
             </p>
