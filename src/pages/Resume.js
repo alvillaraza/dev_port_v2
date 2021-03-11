@@ -17,7 +17,7 @@ export default function Resume({ open, setOpen, page }) {
       </div>
 
       <div className="resume-experience">
-        <section className="experience-block education" >
+        <section className="experience-block education">
           <div className="dates">December 2019 – June 2020</div>
           <h1 className="first-line">
             EDUCATION <img src={remote} alt="remote logo" />

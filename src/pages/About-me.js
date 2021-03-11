@@ -4,11 +4,13 @@ import Contact from "../components/Contact"
 
 import portrait from "../assets/alexis-villaraza-portrait.jpg"
 
-export default function AboutMe({open, setOpen, page}) {
+export default function AboutMe({ open, setOpen, page }) {
   return (
-    <div className={`about-me-container ${page === "about-me" ? "" : "hidden"}`}>
+    <div
+      className={`about-me-container ${page === "about-me" ? "" : "hidden"}`}
+    >
       <div className="portrait">
-        <img className="portrait" src={portrait} />
+        <img className="portrait" src={portrait} alt="portrait of Alexis" />
       </div>
       <div className="about-me-text">
         <Contact />
