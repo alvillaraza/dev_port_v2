@@ -16,29 +16,36 @@ export default function AboutMe({ page }) {
         <Contact />
         <div className="about-me-story">
           <p>
-            I studied Full Stack Web Development through Lambda School where I
-            learned plenty of hard and soft skills in a span of 9 months. I
-            worked with groups to build multiple apps. It was a challenging
-            journey, and I gave back by becoming a Team Lead at the school to
-            help current students learn to code. My technical skills were
-            solidified as a Team Lead by learning to read and debug multiple
-            students’ codes. Seeing my students grow so fast has made me proud,
-            and I am rooting for each and every one of them.
+            Alexis is a Full Stack Web Developer with entrepreneurial and
+            leadership experience. Her background in management taught her to be
+            a well organized and tactical planner, with a proficiency in working
+            with various types of people.
           </p>
-
           <p>
-            I began contractual work at Strongmind, helping build interactive
-            educational platforms. I enjoyed working for education as I got to
-            learn scientific facts while I work!
+            Alexis studied at Lambda School, learning both hard and soft skills
+            in a span of 9 months. She built multiple apps in cross-functional
+            teams as a student, working with UX Designers, Data Scientists, and
+            other Web Developers. She went on to become a Team Lead at the same
+            school, solidifying her technical skills by teaching students and
+            managing team projects.
           </p>
-
           <p>
-            I am currently looking for more experience in Web Development. I
-            have been schooling and working remotely, so I am all set and ready
-            to work remotely or in office.With a passion in eco-solutions, I
-            hope to, one day, use my development skills to provide a positive
-            impact to mother nature.
+            She is currently contracting as a Front End Developer at Strongmind,
+            building interactive educational platforms for an online high
+            school. Fueled by continuous learning, she enjoys developing games
+            designed to engage students to study different subject materials.
+            She learns scientific and psychological facts along the way!
           </p>
+          <p>
+            She is currently looking for a full time job to gain more experience
+            as a Full Stack Developer. With a passion in eco-solutions, she
+            hopes to use her development skills to provide a positive impact to
+            mother nature in the future.
+          </p>
+          <ul>
+            <li>Currently learning: Vue.js </li>
+            <li>Finished self-study materials: Wes Bos 30 Days of Vanilla Javascript</li>
+          </ul>
         </div>
       </div>
     </div>
