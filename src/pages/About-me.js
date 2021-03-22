@@ -30,7 +30,7 @@ export default function AboutMe({ page }) {
             managing team projects.
           </p>
           <p>
-            She is currently contracting as a Front End Developer at Strongmind,
+            She is contracting as a Front End Developer at Strongmind,
             building interactive educational platforms for an online high
             school. Fueled by continuous learning, she enjoys developing games
             designed to engage students to study different subject materials.
@@ -39,8 +39,8 @@ export default function AboutMe({ page }) {
           <p>
             She is currently looking for a full time job to gain more experience
             as a Full Stack Developer. With a passion in eco-solutions, she
-            hopes to use her development skills to provide a positive impact to
-            mother nature in the future.
+            hopes to, one day, use her development skills to provide a positive impact to
+            mother nature.
           </p>
           <ul>
             <li>Currently learning: Vue.js </li>
