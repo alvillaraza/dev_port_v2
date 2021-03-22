@@ -4,7 +4,7 @@ import Contact from "../components/Contact"
 
 import portrait from "../assets/alexis-villaraza-portrait.jpg"
 
-export default function AboutMe({ open, setOpen, page }) {
+export default function AboutMe({ page }) {
   return (
     <div
       className={`about-me-container ${page === "about-me" ? "" : "hidden"}`}

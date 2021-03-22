@@ -3,9 +3,8 @@ import React from "react"
 import Contact from "../components/Contact"
 
 import remote from "../assets/logo-remote.png"
-import lightning from "../assets/icon-lightning-bolt.png"
 
-export default function Resume({ open, setOpen, page }) {
+export default function Resume({ page }) {
   return (
     <div className={`resume-container ${page === "resume" ? "" : "hidden"}`}>
       <div className="resume-basic-info">
@@ -84,6 +83,38 @@ export default function Resume({ open, setOpen, page }) {
                 <li>
                   Facilitated daily standups to build camaraderie, share best
                   practices, and provide guidance for the week's material.
+                </li>
+              </ul>
+            </p>
+          </section>
+          <section className="experience-block">
+            <div className="dates">June 2015 – January 2020</div>
+            <h1 className="first-line">
+              Owner/Project Manager
+            </h1>
+            <h2 className="second-line">BOSS Entertainment Live</h2>
+            <p className="description">
+              <ul>
+                <li>Hired and managed a team of +/- 20 performers</li>
+                <li>
+                  Fostered team engagement, allowing all team members to feel a
+                  sense of ownership and pride
+                </li>
+                <li>
+                  Established and maintained business relationships with clients
+                  and partners both locally and out of state
+                </li>
+                <li>
+                  Managed projects and events such as group costume builds,
+                  choreographed shows, fundraisers.
+                </li>
+                <li>
+                  Organized and planned multiple projects, delivering on ad hoc
+                  client requests in parallel
+                </li>
+                <li>
+                  Consistently met challenging deadlines with high quality
+                  results
                 </li>
               </ul>
             </p>

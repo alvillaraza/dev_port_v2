@@ -14,7 +14,7 @@ import python from "../assets/logo-python.png"
 import gatsby from "../assets/logo-gatsby.png"
 import git from "../assets/logo-git.png"
 
-export default function LandingPage({ open, setOpen, page }) {
+export default function LandingPage({ open, page }) {
   return (
     <>
       <div

@@ -5,7 +5,7 @@ import Contact from "../components/Contact"
 import lightning from "../assets/icon-lightning-bolt.png"
 import link from "../assets/link.svg"
 
-export default function Portfolio({ open, setOpen, page }) {
+export default function Portfolio({ page }) {
   return (
     <div className={`resume-container ${page === "portfolio" ? "" : "hidden"}`}>
       <div className="resume-basic-info">
