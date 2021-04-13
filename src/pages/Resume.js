@@ -17,10 +17,10 @@ export default function Resume({ page }) {
 
       <div className="resume-experience">
         <section className="experience-block education">
-          <div className="dates">December 2019 – June 2020</div>
           <h1 className="first-line">
             EDUCATION <img src={remote} alt="remote logo" />
           </h1>
+          <div className="dates">December 2019 – June 2020</div>
           <h2 className="second-line">Full Stack Web Development Student</h2>
           <h2 className="second-line">Lambda School</h2>
           <p className="description">
@@ -39,7 +39,10 @@ export default function Resume({ page }) {
               </li>
             </ul>
           </p>
-        </section>{" "}
+          <div className="dates">August 2005 – December 2009</div>
+          <h2 className="second-line">Global Business Leadership and Management, BS</h2>
+          <h2 className="second-line">Arizona State University</h2>
+        </section>
         <div className="experience">
           <section className="experience-block">
             <div className="dates">October 2020 – Present</div>
@@ -89,9 +92,7 @@ export default function Resume({ page }) {
           </section>
           <section className="experience-block">
             <div className="dates">June 2015 – January 2020</div>
-            <h1 className="first-line">
-              Owner/Project Manager
-            </h1>
+            <h1 className="first-line">Owner/Project Manager</h1>
             <h2 className="second-line">BOSS Entertainment Live</h2>
             <p className="description">
               <ul>
