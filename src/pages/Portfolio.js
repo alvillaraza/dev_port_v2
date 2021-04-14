@@ -18,6 +18,42 @@ export default function Portfolio({ page }) {
 
       <div className="resume-experience">
         <section className="experience-block">
+          <div className="dates">April 2021</div>
+
+          <a
+            href="https://fake-store-rust.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className="first-line">
+              <img src={link} alt="link icon" /> Faux Boutique
+            </h1>
+          </a>
+
+          <h2 className="second-line">React, Redux, API</h2>
+
+          <p className="description">
+            E-commerce site built using redux.
+            <ul>
+              <li>
+                <img src={lightning} alt="lightning icon" />
+                Used a public API to display products information.
+              </li>
+              <li>
+                <img src={lightning} alt="lightning icon" />
+                Developed state management with redux.
+              </li>
+            </ul>
+            Github:
+            <a
+              href="https://github.com/alvillaraza/fake-store"
+              target="_blank"
+            >
+              https://github.com/alvillaraza/fake-store
+            </a>
+          </p>
+        </section>
+        <section className="experience-block">
           <div className="dates">December 2020 - January 2021</div>
 
           <a
@@ -39,7 +75,7 @@ export default function Portfolio({ page }) {
             <ul>
               <li>
                 <img src={lightning} alt="lightning icon" />
-                Used an ACNH API to display character information
+                Used an ACNH public API to display character information
               </li>
               <li>
                 <img src={lightning} alt="lightning icon" />
