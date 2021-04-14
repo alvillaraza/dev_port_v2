@@ -41,7 +41,7 @@ export default function Portfolio({ page }) {
               </li>
               <li>
                 <img src={lightning} alt="lightning icon" />
-                Developed state management with redux.
+                Developed state management with redux, making the code easier to maintain.
               </li>
             </ul>
             Github:
