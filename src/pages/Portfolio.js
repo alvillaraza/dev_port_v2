@@ -33,22 +33,24 @@ export default function Portfolio({ page }) {
           <h2 className="second-line">React, Redux, API</h2>
 
           <p className="description">
-            E-commerce site built using redux.
+            Solo Project: E-commerce site built using redux.
             <ul>
               <li>
                 <img src={lightning} alt="lightning icon" />
-                Used a public API to display products information.
+                Used a public API to display products information
               </li>
               <li>
                 <img src={lightning} alt="lightning icon" />
-                Developed state management with redux, making the code easier to maintain.
+                Developed state management with redux, making the code easier to
+                maintain
+              </li>
+              <li>
+                <img src={lightning} alt="lightning icon" />
+                Implemented advance design using LESS
               </li>
             </ul>
             Github:
-            <a
-              href="https://github.com/alvillaraza/fake-store"
-              target="_blank"
-            >
+            <a href="https://github.com/alvillaraza/fake-store" target="_blank">
               https://github.com/alvillaraza/fake-store
             </a>
           </p>
@@ -69,9 +71,9 @@ export default function Portfolio({ page }) {
           <h2 className="second-line">React, LESS, API</h2>
 
           <p className="description">
-            If Animal Crossing and Tinder had a baby, this would be it. This
-            website allows a user to choose characters out of a list and keep
-            track of their chosen or rejected animals.
+            Solo Project: If Animal Crossing and Tinder had a baby, this would
+            be it. This website allows a user to choose characters out of a list
+            and keep track of their chosen or rejected animals.
             <ul>
               <li>
                 <img src={lightning} alt="lightning icon" />
@@ -84,7 +86,7 @@ export default function Portfolio({ page }) {
               </li>
               <li>
                 <img src={lightning} alt="lightning icon" />
-                Implemented advanced design using LESS
+                Implemented advance design using LESS
               </li>
             </ul>
             Github:
@@ -112,8 +114,8 @@ export default function Portfolio({ page }) {
             React, Redux, Node, API, PostgreSQL, JSON Web Token
           </h2>
           <p className="description">
-            This was designed for companies who want to monitor their employees’
-            overall wellness.
+            Collaborative school project: This was designed for companies who
+            want to monitor their employees’ overall wellness.
             <ul>
               <li>
                 <img src={lightning} alt="lightning icon" />
@@ -181,8 +183,8 @@ export default function Portfolio({ page }) {
           </a>
           <h2 className="second-line">HTML, LESS</h2>
           <p className="description">
-            A website designed to find the best optimal price for an airbnb
-            rental property.
+            Collaborative school project: A website designed to find the best
+            optimal price for an airbnb rental property.
             <ul>
               <li>
                 <img src={lightning} alt="lightning icon" />
