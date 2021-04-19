@@ -46,7 +46,7 @@ export default function Portfolio({ page }) {
               </li>
               <li>
                 <img src={lightning} alt="lightning icon" />
-                Utilized Fuse.js to add fuzzy search feature
+                Added fuzzy search feature using Fuse.js
               </li>
               <li>
                 <img src={lightning} alt="lightning icon" />
