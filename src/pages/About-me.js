@@ -44,7 +44,7 @@ export default function AboutMe({ page }) {
           </p>
           <ul>
             <li>
-              Currently taking
+              Currently taking: 
               <a
                 href="https://frontendmasters.com/learn/fullstack/"
                 target="_blank"
