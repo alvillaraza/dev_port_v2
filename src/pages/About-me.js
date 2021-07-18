@@ -30,19 +30,19 @@ export default function AboutMe({ page }) {
             managing team projects.
           </p>
           <p>
-            She is contracting as a Front End Developer at Strongmind, building
-            interactive educational platforms for an online high school. Fueled
-            by continuous learning, she enjoys developing games designed to
-            engage students to study different subject materials. She learns
-            scientific and psychological facts along the way!
+            She is currently working full time as Engineer I at Carvana and is
+            looking to supplement her income through freelance developing. If
+            you, or someone you know needs a website, email her at{" "}
+            <a href="mailto:alexis.borja@gmail.com">alexis.borja@gmail.com</a>{" "}
+            for a quote.
           </p>
-          <p>
+          {/* <p>
             She is currently looking for a full time job to gain more experience
             as a Full Stack Developer. With a passion in eco-solutions, she
             hopes to, one day, use her development skills to provide a positive
             impact to mother nature.
-          </p>
-          <ul>
+          </p> */}
+          {/* <ul>
             <li>
               Currently taking:
               <a
@@ -58,7 +58,7 @@ export default function AboutMe({ page }) {
                 Wes Bos 30 Days of Vanilla Javascript
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

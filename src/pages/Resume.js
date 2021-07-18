@@ -40,12 +40,39 @@ export default function Resume({ page }) {
             </ul>
           </p>
           <div className="dates">August 2005 – December 2009</div>
-          <h2 className="second-line">Global Business Leadership and Management, BS</h2>
+          <h2 className="second-line">
+            Global Business Leadership and Management, BS
+          </h2>
           <h2 className="second-line">Arizona State University</h2>
         </section>
         <div className="experience">
           <section className="experience-block">
-            <div className="dates">October 2020 – Present</div>
+            <div className="dates">June 2021 - Present</div>
+            <h1 className="first-line">
+              Engineer I <img src={remote} alt="remote logo" />
+            </h1>
+            <h2 className="second-line">Carvana</h2>
+            <p className="description">
+              <ul>
+                <li>
+                  Develops, maintains, and deploys complex full-stack solutions
+                  using JavaScript (React, Redux) and cloud services (Azure).
+                </li>
+                <li>
+                  Completes support and maintenance of applications from
+                  development, through build pipeline, and after cloud
+                  deployment.
+                </li>
+                <li>
+                  Participates in peer discussions on architecture and the
+                  overall direction of Carvana platforms.
+                </li>
+              </ul>
+            </p>
+          </section>
+
+          <section className="experience-block">
+            <div className="dates">October 2020 – December 2020</div>
             <h1 className="first-line">
               Frontend Developer <img src={remote} alt="remote logo" />
             </h1>
