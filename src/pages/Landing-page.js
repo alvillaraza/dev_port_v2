@@ -40,7 +40,7 @@ export default function LandingPage({ open, page }) {
         </div>
         <header className={`name-title ${open ? "faded" : ""}`}>
           <h1>Alexis Villaraza</h1>
-          <h2>FULL-STACK WEB DEVELOPER</h2>
+          <h2>FRONT END SOFTWARE ENGINEER</h2>
         </header>
         <footer className={`tech-stack-icons ${open ? "faded" : ""}`}>
           <img src={html} alt="html icon" />

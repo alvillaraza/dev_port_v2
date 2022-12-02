@@ -16,56 +16,37 @@ export default function Resume({ page }) {
       </div>
 
       <div className="resume-experience">
-        <section className="experience-block education">
-          <h1 className="first-line">
-            EDUCATION <img src={remote} alt="remote logo" />
-          </h1>
-          <div className="dates">December 2019 – June 2020</div>
-          <h2 className="second-line">Full Stack Web Development Student</h2>
-          <h2 className="second-line">Lambda School</h2>
-          <p className="description">
-            <ul>
-              <li>
-                Learned several programming languages from the ground up in just
-                6 months.
-              </li>
-              <li>
-                Participated in three different build weeks, collaborating in
-                groups of +/- 8 students to successfully develop websites.
-              </li>
-              <li>
-                Built a fitness app in 3 release canvases in a team of 4, using
-                GIT, Postgres, Node.js, and React.js.
-              </li>
-            </ul>
-          </p>
-          <div className="dates">August 2005 – December 2009</div>
-          <h2 className="second-line">
-            Global Business Leadership and Management, BS
-          </h2>
-          <h2 className="second-line">Arizona State University</h2>
-        </section>
         <div className="experience">
           <section className="experience-block">
             <div className="dates">June 2021 - Present</div>
             <h1 className="first-line">
-              Engineer I <img src={remote} alt="remote logo" />
+              Software Engineer I <img src={remote} alt="remote logo" />
             </h1>
             <h2 className="second-line">Carvana</h2>
             <p className="description">
               <ul>
                 <li>
-                  Develops, maintains, and deploys complex full-stack solutions
-                  using JavaScript (React, Redux) and cloud services (Azure).
+                  For this e-commerce and fin-tech company, developed, tested,
+                  and deployed complex web solutions using JavaScript (React),
+                  Jest (Enzyme and React Testing Library). Deployed into Azure
+                  cloud services.
                 </li>
                 <li>
-                  Completes support and maintenance of applications from
-                  development, through build pipeline, and after cloud
-                  deployment.
+                  One of three software engineers who performed support and
+                  maintenance of applications from development, through build
+                  pipeline, and after cloud deployment.
                 </li>
                 <li>
-                  Participates in peer discussions on architecture and the
+                  Participated in peer discussions on architecture and the
                   overall direction of Carvana platforms.
+                </li>
+                <li>
+                  Received the Developer of Delight award for introducing the
+                  company to the Functional-Usable-Delightful concept.
+                </li>
+                <li>
+                  Participated in yearly and quarterly hackathons where I used
+                  Python to build games.
                 </li>
               </ul>
             </p>
@@ -74,13 +55,13 @@ export default function Resume({ page }) {
           <section className="experience-block">
             <div className="dates">October 2020 – December 2020</div>
             <h1 className="first-line">
-              Frontend Developer <img src={remote} alt="remote logo" />
+              Front end Developer <img src={remote} alt="remote logo" />
             </h1>
             <h2 className="second-line">Strongmind</h2>
             <p className="description">
               <ul>
                 <li>
-                  Updates data layer for interactive interfaces on educational
+                  Updated data layer for interactive interfaces on educational
                   platforms.
                 </li>
                 <li>
@@ -147,6 +128,35 @@ export default function Resume({ page }) {
               </ul>
             </p>
           </section>
+        <section className="experience-block education">
+          <h1 className="first-line">
+            EDUCATION <img src={remote} alt="remote logo" />
+          </h1>
+          <div className="dates">December 2019 – June 2020</div>
+          <h2 className="second-line">Full Stack Web Development Student</h2>
+          <h2 className="second-line">Lambda School</h2>
+          <p className="description">
+            <ul>
+              <li>
+                Learned several programming languages from the ground up in just
+                6 months.
+              </li>
+              <li>
+                Participated in three different build weeks, collaborating in
+                groups of +/- 8 students to successfully develop websites.
+              </li>
+              <li>
+                Built a fitness app in 3 release canvases in a team of 4, using
+                GIT, Postgres, Node.js, and React.js.
+              </li>
+            </ul>
+          </p>
+          <div className="dates">August 2005 – December 2009</div>
+          <h2 className="second-line">
+            Global Business Leadership and Management, BS
+          </h2>
+          <h2 className="second-line">Arizona State University</h2>
+        </section>
         </div>
       </div>
     </div>

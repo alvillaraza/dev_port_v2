@@ -16,7 +16,7 @@ export default function AboutMe({ page }) {
         <Contact />
         <div className="about-me-story">
           <p>
-            Alexis is a Full Stack Web Developer with entrepreneurial and
+            Alexis is a Front End Web Developer with entrepreneurial and
             leadership experience. Her background in management taught her to be
             a well organized and tactical planner, with a proficiency in working
             with various types of people.
@@ -30,11 +30,9 @@ export default function AboutMe({ page }) {
             managing team projects.
           </p>
           <p>
-            She is currently working full time as Engineer I at Carvana and is
-            looking to supplement her income through freelance developing. If
-            you, or someone you know needs a website, email her at{" "}
-            <a href="mailto:alexis.borja@gmail.com">alexis.borja@gmail.com</a>{" "}
-            for a quote.
+            She recently worked full time as Software Engineer I at Carvana. She worked on Carvana's landing page and search page using TypeScript, React, and Jest. She is currently looking for a full time remote position.  If
+            you or someone you know is hiring a Software Engineer, you can contact her at 
+            <a href="mailto:alexis.borja@gmail.com">alexis.borja@gmail.com</a>.
           </p>
           {/* <p>
             She is currently looking for a full time job to gain more experience
