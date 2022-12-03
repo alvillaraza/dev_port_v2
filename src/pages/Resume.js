@@ -18,7 +18,7 @@ export default function Resume({ page }) {
       <div className="resume-experience">
         <div className="experience">
           <section className="experience-block">
-            <div className="dates">June 2021 - Present</div>
+            <div className="dates">June 2021 - November 2022</div>
             <h1 className="first-line">
               Software Engineer I <img src={remote} alt="remote logo" />
             </h1>
