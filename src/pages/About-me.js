@@ -30,8 +30,8 @@ export default function AboutMe({ page }) {
             managing team projects.
           </p>
           <p>
-            She recently worked full time as Software Engineer I at Carvana. She worked on Carvana's landing page and search page using TypeScript, React, and Jest. She is currently looking for a full time remote position.  If
-            you or someone you know is hiring a Software Engineer, you can contact her at 
+            She worked full time as Software Engineer I at Carvana. She worked on Carvana's landing page and search page using TypeScript, React, and Jest. She recently contracted at Integrate, gaining experience in a small start-up company. She worked at Integrate as a Full Stack Developer, adding Go and Tailwind to her repertoire. She is currently looking for a full time remote position.  If
+            you or someone you know is hiring a Software Engineer, you can contact her at {' '}
             <a href="mailto:alexis.borja@gmail.com">alexis.borja@gmail.com</a>.
           </p>
           {/* <p>

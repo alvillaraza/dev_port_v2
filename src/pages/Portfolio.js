@@ -11,8 +11,7 @@ export default function Portfolio({ page }) {
       <div className="resume-basic-info">
         <Contact />
         <div className="tech-stack-list">
-          HTML CSS Bootstrap JS React Redux Gatsby Node SQL Python GIT Agile MS
-          Office
+          HTML CSS Tailwind Bootstrap JS React Redux Go Gatsby Node Python SQL GIT Agile
         </div>
       </div>
 
