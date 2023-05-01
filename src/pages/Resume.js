@@ -10,7 +10,8 @@ export default function Resume({ page }) {
       <div className="resume-basic-info">
         <Contact />
         <div className="tech-stack-list">
-        HTML CSS Tailwind Bootstrap JS React Redux Go Gatsby Node Python SQL GIT Agile
+          HTML CSS Tailwind Bootstrap JS React Redux Go Gatsby Node Python SQL
+          GIT Agile
         </div>
       </div>
 
@@ -49,11 +50,6 @@ export default function Resume({ page }) {
             <p className="description">
               <ul>
                 <li>
-                  For this e-commerce and fin-tech company, applied design
-                  system patterns to develop reusable and scalable UI components
-                  and deploy complex web solutions in React and SASS
-                </li>
-                <li>
                   One of three software engineers who collaborated with Product
                   Managers, UI Designers, Back End Engineers and Quality
                   Engineers to support and maintain the Carvana landing page
@@ -62,9 +58,16 @@ export default function Resume({ page }) {
                   integration to deploy into Azure.
                 </li>
                 <li>
+                  For this e-commerce and fin-tech company, used React and
+                  Typescript to conduct A/B testing which increased customer
+                  credit applications by 20% via structural/functional updates
+                  to the hero area
+                </li>
+                <li>
                   Consumed from multiple REST APIs to develop personalization
-                  for authorized users, conducted A/B testing, and created the
-                  UI with mobile-first responsive web design
+                  for authorized users and applied design system patterns to
+                  develop reusable and scalable UI components with mobile first
+                  responsive web design
                 </li>
                 <li>
                   Used Jest (Enzyme and React Testing Library) to improve unit
